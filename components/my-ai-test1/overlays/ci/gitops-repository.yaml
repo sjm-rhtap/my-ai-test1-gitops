@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: my-ai-test1-gitops-repository
+spec:
+  url: https://github.com/sjm-rhtap/my-ai-test1-gitops

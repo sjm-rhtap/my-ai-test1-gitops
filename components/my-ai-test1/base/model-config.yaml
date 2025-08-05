@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-ai-test1-model-config
+data:
+  MODEL_ENDPOINT: "https://llama-4-scout-17b-16e-w4a16-maas-apicast-production.apps.prod.rhoai.rh-aiservices-bu.com:443"
+  MODEL_NAME: "llama-4-scout-17b-16e-w4a16"
